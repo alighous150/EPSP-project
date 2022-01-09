@@ -1,0 +1,80 @@
+body{
+    
+    font-family: 'Helvetica', sans-serif;
+    background: linear-gradient(to bottom right,blue,white);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+    background-position: center;
+    
+    
+}
+h1{
+     text-align: center;
+    font-size: 20px;
+    color: black;
+   
+    
+}
+h5{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: whitesmoke;
+}
+background{
+      width: 100%;
+  height: 100%;
+    
+}
+#box{
+    
+    text-align: center;
+    font-size: 12px;
+    width: 80%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    top: 5%;
+    position: relative;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+        
+}
+#text{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+input[type=text] {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+  font-weight: 600;
+  font-size: 90%;
+  width: 10%;
+  padding: 5px 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+button {
+    object-position: center;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    color:red;
+    scroll-behavior: smooth;
+}
+#inputs{
+    text-align: center;
+    color: whitesmoke;
+}
+h3{
+    text-align: center;
+    color: whitesmoke
+}
+p{
+    text-align: center;
+    
+}

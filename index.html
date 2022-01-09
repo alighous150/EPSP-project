@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EPSP CEP</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.1/math.min.js" integrity="sha512-kQRlK1SJWaTGiiJQ44Moe3YINY3xbKFNouO+TUBUW8b5K5cMEocfbVT+aTArq6ye6dlXBrx7p/NmU7Sab8NtMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+    <body>
+    <h1>
+        <br>
+        FAULT DETECTION USING NODEMCU  <br><br>
+       
+    </h1>
+<h5>
+    Fault detection used here have the capability of calculating symmetrical and unsymmetrical faults including L-G,DLG and three phase. Only enter your current and voltage phasors to find out which fault is present in your system in this form (1<0)
+</h5>
+<h3>Phasor Currents & Voltages:
+             </h3>
+             <div id="inputs">
+                
+               <label for="Ia">Enter First Phasor Current and Voltage(Ia and Va): </label>
+                 <br>
+                <label for="Ia">Current (Amps) </label><input type="text" value="" id="Ia"><label for="Va">&nbsp;&nbsp;&nbsp;&nbsp; Voltage (V) </label> <input type="text" value="" id="Va">
+                 <br> <br>
+                 <label for="Ib">Enter Second Phasor Current and Voltage(Ib and Vb):</label> <br>
+                 <label for="Ib">Current (Amps) </label><input type="text" value="" id="Ib"><label for="Vb">&nbsp;&nbsp;&nbsp;&nbsp; Voltage (V) </label> <input type="text" value="" id="Vb">
+                 <br> <br>
+                 <label for="Ic">Enter Third Phasor Current and Voltage(Ic and Vc):</label> <br>
+                 <label for="Ic">Current (Amps) </label><input type="text" value="" id="Ic"><label for="Vc">&nbsp;&nbsp;&nbsp;&nbsp; Voltage (V) </label> <input type="text" value="" id="Vc">
+            <br><br>
+                <button type="button" onClick="faultAnalysis()">Calculate Fault</button>
+                </div>
+             <div id="outputs">
+                 <br>
+                 
+                 
+                 
+             </div>
+             
+<p>
+    <b> Type of Fault Detected:</b> <br>
+             <span id="result"></span>
+        </p>
+        
+    <script src="app.js">
+        </script>
+
+    </body>
+     
+
+</html>
+
+        
